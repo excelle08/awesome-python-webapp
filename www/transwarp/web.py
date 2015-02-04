@@ -418,7 +418,7 @@ def _to_unicode(s, encoding='utf-8'):
     True
     '''
     return s.decode('utf-8')
-
+3
 def _quote(s, encoding='utf-8'):
     '''
     Url quote as str.
@@ -582,7 +582,8 @@ class StaticFileRoute(object):
         return _static_file_generator(fpath)
 
 def favicon_handler():
-    return static_file_handler('/favicon.ico')
+    return static
+    _file_handler('/favicon.ico')
 
 class MultipartFile(object):
     '''
